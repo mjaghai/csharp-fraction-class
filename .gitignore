@@ -1,0 +1,37 @@
+# ---- Build output ----
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# ---- Visual Studio / Rider / VS Code ----
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.dbmdl
+*.jfm
+*.dtbcache.v2
+*.futdcache.v1
+*.vsidx
+.vscode/
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+packages/
+project.assets.json
+project.nuget.cache
+
+# ---- OS noise ----
+Thumbs.db
+Desktop.ini
+.DS_Store
